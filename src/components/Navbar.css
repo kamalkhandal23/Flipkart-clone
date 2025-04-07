@@ -1,0 +1,183 @@
+/* Navbar.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    top: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #ffff;
+    color: blueviolet;
+    position: sticky;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 99999;
+}
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar {
+    width: 500px;
+    padding: 12px;
+    border-radius: 4px;
+    border: solid black 0px;
+    outline: none;
+    /* margin-left: 20px; */
+    background-color: #ffefff;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.profile-btn,
+.cart-btn,
+.seller-btn,
+.more-info {
+    background: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: black;
+    padding: 0px 16px;
+}
+
+.logo img {
+    width: 160px;
+    height: 40px;
+    object-fit: contain;
+    margin-left: 40px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    /* Align icon and text vertically */
+    gap: 1px;
+    /* Space between icon and text */
+    padding-left: 10px;
+}
+
+span.cart-btn {
+    font-size: 20px;
+}
+
+.user-icon {
+    font-size: 19px;
+    /* Adjust icon size if needed */
+    color: #333;
+    /* Change color if needed */
+    margin-left: 10px;
+}
+
+.profile-btn {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.seller-container {
+    display: flex;
+    align-items: center;
+    /* Align icon and text vertically */
+    gap: 1px;
+    /* Space between icon and text */
+    padding-left: 0px;
+}
+
+.seller-icon {
+    font-size: 19px;
+    /* Adjust icon size if needed */
+    color: #333;
+    /* Change color if needed */
+    margin-left: 10px;
+}
+
+.seller-icon {
+    padding-left: 10px;
+}
+
+
+a.user-span {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+.user-span:hover {
+    background: #e0e0e0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.more-info-container {
+    display: flex;
+    align-items: center;
+}
+
+.more-span:hover {
+    background-color: #e0b3b3;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+span.more-info {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+.searchbar-container {
+    position: relative;
+    width: 506px;
+    /* Adjust width as needed */
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    /* Adjust icon position */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 18px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    /* Extra left padding for icon */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: rgb(222 240 254);
+}
+
+span.more-info {
+    font-size: 25px;
+}
