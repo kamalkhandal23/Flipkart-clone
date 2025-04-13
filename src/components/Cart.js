@@ -3,13 +3,13 @@ import React from "react";
 
 const CartButton = () => {
     return (
-        <>
-            <div className="cart-container">
-                <a className="cart-span">
-                    <span className="cart-btn">🛒 Cart</span>
-                </a>
-            </div>
-        </>
+
+        <div className="cart-container">
+            <a className="cart-span">
+                <span className="cart-btn">🛒 Cart</span>
+            </a>
+        </div>
+
     )
 };
 
