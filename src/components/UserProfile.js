@@ -1,18 +1,16 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, FaEnvelope, faUser, faUserCircle } from "@fortawesome/free-solid-svg-icons";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 const UserProfile = () => {
     return (
 
-        <>
-            <div className="profile-container">
-                <a className="user-span">
-                    <FontAwesomeIcon icon={faUserCircle} className="user-icon" />
-                    <span className="profile-btn">SHRIRAM</span>
-
-                </a>
+        
+            <div className="nav-item special1">
+                
+                    <AccountCircleIcon className="nav-icon" style={{color:'#000', fontSize : 27}} />
+                    <span className="nav-text">SHRIRAM</span>
+               
             </div>
-        </>
+        
 
     )
 };

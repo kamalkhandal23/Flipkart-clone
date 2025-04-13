@@ -1,13 +1,13 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const CartButton = () => {
     return (
 
-        <div className="cart-container">
-            <a className="cart-span">
-                <span className="cart-btn">🛒 Cart</span>
-            </a>
+        <div className="nav-item">
+            
+                <ShoppingCartIcon className="nav-icon" style={{color:'#000', fontSize: 27 }}/>
+                <span className="nav-text">Cart</span>
+            
         </div>
 
     )
