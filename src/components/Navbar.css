@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    top: 0px;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: blueviolet;
+    position: sticky;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 99999;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar {
+    width: 500px;
+    padding: 12px;
+    border-radius: 4px;
+    border: solid black 0px;
+    outline: none;
+    background-color: #ffefff;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.logo img {
+    width: 160px;
+    height: 40px;
+    object-fit: contain;
+    margin-left: 40px;
+}
+
+
+.special1:hover {
+    background-color: #f1f3f6;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.special2:hover {
+    background-color: #f1f3f6;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 28px;
+    width: 46px;
+}
+
+
+.searchbar-container {
+    position: relative;
+    width: 506px;
+    /* Adjust width as needed */
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    /* Adjust icon position */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 18px;
+}
+
+.search-input {
+    width: 95%;
+    padding: 10px 10px 10px 35px;
+    /* Extra left padding for icon */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: rgb(222 240 254);
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.nav-icon {
+    margin-right: 6px;
+    color: black;
+}
+
+.nav-text {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
